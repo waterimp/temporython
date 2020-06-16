@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 setup(
     name="temporython",
     version="0.8.0",
-    description="Generate temporary Python scripts to quickly process lines of text of files.",
+    description="Generate temporary Python scripts to quickly process lines of text or whole text files.",
     long_description=longdesc,
     long_description_content_type="text/markdown",
     url="https://github.com/waterimp/temporython",
