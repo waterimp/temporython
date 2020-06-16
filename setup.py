@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="temporython",
-    version="0.8.0",
+    version="0.8.1",
     description="Generate temporary Python scripts to quickly process lines of text or whole text files.",
     long_description=longdesc,
     long_description_content_type="text/markdown",
