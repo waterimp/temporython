@@ -14,8 +14,8 @@ rm -rf ./venv
 python3.5 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
-python3 -m pip install --user --upgrade setuptools wheel
+python3 -m pip install --upgrade setuptools wheel
 python3 setup.py sdist bdist_wheel
 python3 -m pip install --upgrade twine
-python3 -m twine upload --repository testpypi dist/*
+# python3 -m twine upload --repository testpypi dist/*
 python3 -m twine upload --repository pypi dist/*
