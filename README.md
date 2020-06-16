@@ -19,7 +19,7 @@ If you find yourself writing custom Python scripts or writing in an interactive 
 You type the command...
 
 ```console
-temporython lines process_bounced_email_logs.py
+$ temporython lines process_bounced_email_logs.py
 ```
 ...and the file `process_bounced_email_logs.py` is created. Here is what is inside of that file.
 
