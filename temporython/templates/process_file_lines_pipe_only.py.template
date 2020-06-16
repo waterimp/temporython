@@ -16,7 +16,7 @@ $INCLUDE_TEMPORYTHON_PROCESS_PIPE_LIBRARY
 class LineProcessor:
     def __init__(self):
         """
-        called before processsing begins
+        called before processing begins
         """
         pass
 
